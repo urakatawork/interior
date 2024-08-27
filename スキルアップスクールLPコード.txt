@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior IT School</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900">
+
+    <!-- Header -->
+    <header class="bg-white dark:bg-gray-800 shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Interior IT School</h1>
+            <nav>
+                <a href="#about" class="text-gray-900 dark:text-white mx-2">About</a>
+                <a href="#features" class="text-gray-900 dark:text-white mx-2">Features</a>
+                <a href="#testimonials" class="text-gray-900 dark:text-white mx-2">Testimonials</a>
+                <a href="#contact" class="text-gray-900 dark:text-white mx-2">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+            <h2
+                class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                インテリアコーディネーターのための<br>ITスキルアップスクール</h2>
+            <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+                あなたのデザインセンスを活かし、ITスキルを身につけて、さらにキャリアアップを目指しませんか？<br>
+                このスクールでは、初心者からでも安心して学べるカリキュラムを提供します。
+            </p>
+            <div
+                class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                <a href="#contact"
+                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 dark:focus:ring-yellow-600">詳細を見る</a>
+                <a href="#contact"
+                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">お問い合わせ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white">スクールについて</h2>
+            <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">
+                インテリアデザインとITスキルを融合させることで、あなたのキャリアを次のレベルに引き上げます。
+                経験豊富な講師陣が、最新の技術と実践的なスキルを指導します。
+            </p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-12 bg-white dark:bg-gray-900">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white">特徴</h2>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">初心者向けカリキュラム</h3>
+                    <p class="mt-4 text-gray-600 dark:text-gray-300">初心者でも安心して学べるよう、基礎から丁寧に指導します。</p>
+                </div>
+                <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">実践的なプロジェクト</h3>
+                    <p class="mt-4 text-gray-600 dark:text-gray-300">リアルなプロジェクトを通じて、実践的なスキルを習得できます。</p>
+                </div>
+                <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">業界経験豊富な講師</h3>
+                    <p class="mt-4 text-gray-600 dark:text-gray-300">豊富な業界経験を持つ講師が、あなたをサポートします。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-12 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white">お客様の声</h2>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <p class="text-gray-600 dark:text-gray-300">"ITスキルを学ぶことで、インテリアデザインの幅が広がりました。"</p>
+                    <p class="mt-4 font-semibold text-gray-900 dark:text-white">- 山田 花子</p>
+                </div>
+                <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <p class="text-gray-600 dark:text-gray-300">"実践的なプロジェクトがとても役立ちました。"</p>
+                    <p class="mt-4 font-semibold text-gray-900 dark:text-white">- 田中 太郎</p>
+                </div>
+                <div class="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                    <p class="text-gray-600 dark:text-gray-300">"講師が親切で、とても学びやすい環境でした。"</p>
+                    <p class="mt-4 font-semibold text-gray-900 dark:text-white">- 鈴木 次郎</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-white dark:bg-gray-900">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white">お問い合わせ</h2>
+            <p class="mt-4 text-lg text-gray-600 dark:text-gray-300">スクールについての詳細や、受講のお申し込みは、以下のフォームからお問い合わせください。</p>
+            <form class="mt-8 space-y-4">
+                <div>
+                    <input type="text" placeholder="お名前" class="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white">
+                </div>
+                <div>
+                    <input type="email" placeholder="メールアドレス" class="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white">
+                </div>
+                <div>
+                    <textarea rows="4" placeholder="お問い合わせ内容" class="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="w-full py-3 px-5 rounded-lg bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 dark:focus:ring-yellow-600 text-black">送信</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 dark:bg-gray-900 py-6">
+        <div class="container mx-auto px-4 text-center text-gray-500 dark:text-gray-400">
+            <p>&copy; 2024 Interior IT School. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="#" class="mx-2">Facebook</a>
+                <a href="#" class="mx-2
